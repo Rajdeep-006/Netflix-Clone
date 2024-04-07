@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+#main{
+    padding: 4px 100px;
+    background-image: url(IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+height: 100vh;
+background-size: max(1200px,100vw);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left img{
+    height: 80px;
+    width: 200px;
+}
+
+span {
+    font-size: 14px !important;
+}
+
+#lang{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border: 0.2px solid white;
+}
+
+#signin{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+   margin-left: 8px;
+}
+
+#hero{
+   color: white;
+    width: 50%;
+    margin: 165px auto;
+}
+
+#hero h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 65px;
+}
+
+#hero h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#hero p{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#iab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero input{
+    height: 55px;
+    width: 370px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: whitesmoke;
+}
+
+#hero button{
+    height: 55px;
+    width: 210px;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+}
+
+#butt2{
+    display: none;
+}
+
+#plans{
+    width: 78%;
+   border: 1px solid black;
+   margin: 20px auto;
+   border-radius: 20px;
+   padding: 32px 48px;
+   background-color: rgba(190, 110, 199, 0.5);
+   color: white;
+}
+
+#plans h1{
+    font-size: 32px;
+}
+
+#plans p{
+    font-size: 18px;
+}
+
+body>h2{
+    padding-top: 30px;
+    padding-left: 170px;
+    color: white;
+}
+
+#cards{
+    display: flex;
+    margin: 15px 170px;
+    gap: 20px;
+}
+
+.cardy{
+    color: white;
+    height: 280px;
+    width: 300px;
+    border: 0.2px solid white;
+    border-radius: 20px;
+    padding: 25px 15px;
+    position: relative;
+    margin-top: 15px;
+   
+}
+
+.cardy h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+     line-height: 30px;
+}
+
+.cardy p{
+    font-size: 16px;
+     line-height: 20px;
+}
+
+.cardy img{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+
+#faq{
+    margin: 15px 170px;
+}
+
+.faqan{
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    height: 85px;
+    font-size: 24px;
+    background-color: #414141;
+}
+
+.faqan img{
+    width: 30px;
+}
+
+#Ready{
+    margin: 15px 170px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+#iab2{
+    margin: 15px 170px;
+    display: flex;
+    align-items: center;
+}
+
+#iab2 input{
+    height: 55px;
+    width: 725px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: whitesmoke;
+}
+
+#iab2 button{
+    height: 55px;
+    width: 210px;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+}
+
+#que{
+    margin: 25px 170px;
+    font-size: 16px;
+}
+
+#que span{
+    text-decoration: underline;
+}
+
+#foot{
+    margin: 25px 170px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+#foot a{
+    color: white;
+    font-size: 12px;
+}
+
+body>button{
+    margin: 25px 170px;
+}
+
+#ind{
+    margin: 10px 170px;
+    margin-bottom: 70px;
+}
